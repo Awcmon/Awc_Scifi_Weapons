@@ -1,0 +1,9 @@
+"AddonInfo"
+{
+	"name"			"Sci-fi weapons ALPHA"
+	"version"		"12/13/11"
+	"author_name"		"Awcmon"
+	"author_url"		""
+	"info"			"Actually creative weapons that are lightweight-- something you don't see much anymore, but this was first made when there was virtually none."
+	"override"		"0"
+}

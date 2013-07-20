@@ -1,0 +1,333 @@
+I started one too late. Added 03/11/12
+
+From the original:
+-Re-vamped whole base
+	-Made easier to read
+	-Made simpler
+	-More organized
+
+-Re-vamped the weapons
+	-To fit the new base.
+
+-Other crap that I can't remember
+
+-Tried making two experimental weapons
+	-Gatling SMG (Barrel refused to spin)
+	-Handheld radar (So many things wrong with it... Well, tbh, it just wouldn't scan..)
+
+-Added two new weapons
+	-Cloaking SMG
+	-AK47
+
+-Made a 1337 crosshair system for guns without any other aiming system
+	-Works like Mad Cows-- Aimpos, not center of screen. Viewpunch makes it have a purpose, and the AK47 tests that.
+
+-Cool 1337 sounds that don't rape ears (hopefully)
+	-Less than a KB DL! Amazing!
+
+
+03/11/12
+-Organized Beta build
+	-Removes obsolete weapons
+	-Updated the info.txt
+
+05/29/12
+-Started resuming work again
+	-Added custom muzzle effects, smoke.
+	-Fixed the sound pitches.
+		-No more weird tinnitus thingy
+	-Added a semi working bayonet stab function on the AK47.
+	-Made a mini-package.
+	-Added ammo counter back onto the AR34. Fixed it too.
+	-Repackaged.
+	-Added clip counter
+	-Added a lil screen thing
+	-Added something on the top to make things les awkward and to add a two-tone feeling.
+	-Another revision packaged.
+
+05/30/12
+-Added more variables
+	-Should use gunsmoke bool
+	-Tracer type (Fix the no tracers on default.)
+-Added Muzzlelight
+-Added OnPrimaryAttack which is called on primary attack to add more functionality.
+-Moved back the AR34 top block a bit.
+-Broke the smoke effect... :<
+-Fixed the walljump, plus made it make you do a 180.
+-Some other small changes.
+05/31/12
+-Added a panel with togglable effects
+-Made the effects togglable through client convars.
+
+06/03/12
++Minor changes the days before
+-RIP'd the Laser pistol.
+	+Long blue laser thing like Combine Sniper
+	+Very accurate
+	+Parkour backkicks
+	-Split it into two parts
+		-Added a CI2000 Sniper Rifle. A little bugged still.
+			-Has the bue laser, does loads of dmg, slow ROF
+			-Zoom
+		-Added a 5-7 variant of the Laser Pistol
+			-Limited Red laser
+			-Parkour backkicks
+			-Normal crosshair
+			-Less accuracy
+-Other small stuff that I might have forgot.
+
+06/04/12
+-Added stuff to the server
+	-Health regen, Wire, stuff like that
+-Made some changes to the base.
+	-OnPrimaryAttack
+-Added a shotgun, S12 CAWS
+	-Based off of Halo M90 CAWS
+06/05/12
+-Not much, some small changes I forgot.
+
+06/06/12
+-Attempt to optimize shit
+
+06/16/12
+-Added Halo style tracer to the CI2000
+-Changed the CI2000 firing sound.
+-Tried to fix the laser on the CI2000
+
+06/19/12
+-Added DMR
+-Added new tracer for the electric punk
+
+06/22/12
+-Added BFG's Pulse M4 thingy, which didn't exactly work.
+-Added a new muzzleflash effect.
+
+06/23/12
+-Added the M6D
+
+06/24/12
+-Improved the M6D
+-Found new scope textures built into source.
+-Added working Melee into the AK47 (Finally)
+-Shooped bullet force up really high xD
+
+06/28/12
+-Added cool spark effects
+-Some time before this day, fixed melee for AK47
+
+07/1/12
+-Updated invis SMG so it actually cloaks you. BFG made it first when he haxxed in somebody else's code into mine.
+	-I updated it so instead of calling like 10 things everytime you want to cloak or uncloak, I put them into thier own seperate functions so I can easily update them.
+
+07/2/12
+-Removed damn muzzle flashes.
+-Revamped FiveSeven parkour: You can now go down alleyways at insanely fast speeds
+	-Ergo bouncy ball.
+-AR34 now unzooms on reload. Forgot to do it ages ago.
+-Finally updated the Invis SMG's crosshair.
+
+
+01/21/13
+-Restarted Sci-fi weapons. Completely remade for GMod 13.
+
+01/26/13
+-Weapons currently added: AK47, AR34, MangoJuicer (HL2 revolver)
+
+01/28/13
+-Bunch of small changes, most major being added firing effects and improved way to do slowed deploy speeds.
+-Renamed Mango Juicer to "The Crusher", a pun of masher revolvers even though it doesn't make any sense as The Crusher fires normal bullets.
+
+
+01/29/13
+-Made it use CalcView. Very limited right now, only moves viewmodel according to player velocity and has the gun always point at aim vector, ie. nothing new.
+
+
+02/04/13
+-Complete CalcView support for everything the old GetViewModel position thing did.
+-Custom dynamic aimcone system (spread)
+-Shoved in but made unspawnable: DMR and Electric Punk
+-Other things I don't remember too well
+
+02/06/13
+-Fixed lua errors when firing right before death (effectsoffset)
+-Made the spread less crazy
+-Sped up viewmodel positioning on sprint
+
+02/09/13
+-Re-added Laser Pistol (Aka Parkour Pistol) as Stunt Pistol
+	-Lets you walljump, handy for maps like Big City.
+	-First gun in the re-done pack to have a secondary.
+-Re-added scoping for AR34 as secondary
+-Added thresholds (Clamping) for viewmodel movement for player velocity (Before going really fast made the viewmodel fly away)
+-Added limited crosshair scaling to accuracy (Doesn't include spread from firing) (With Smoothers)
+-Re-added the DMR (Without tracers)
+
+02/10/13
+-Changed DMR's ammo type
+-Changed effects so it only spawns one smoke sprite
+-Made the Laser Pistol's wallkick make you turn again. With smoothers this time.
+
+02/12/13
+-Added Dragon
+
+02/14/13
+-Switched to incremental recoil
+-Screwed up the dynamic aimcone system after getting pissed off after making it incremental.
+
+02/18/13
+-Added trails for the DMR
+-Made the Dragon actually drop something.
+
+02/19/13
+-Made the Dragon explode
+
+02/20/13
+-Added bullet style tracers
+-Dragon explosion now applyforces props away
+-Added burst fire to AR34 when scoped
+-Removed unzoom on sprint for AR34 and DMR
+
+02/21/13
+-Added Adminge weapon "Dragon Master"
+	-Primary fire spams out Dragon mines at 700rpm
+	-Secondary fire remotely detonates all Dragon mines on the map
+-Added remote detonation to Dragon mines for the Dragon Master
+-Expanded the explosion radius from 128 to 192
+-Added Dragons removing when player has left the sevrer (otherwise it just turned into a prop)
+-Increased delay until next primary attack on AR34 burst fire
+*Scrapped*-Made Dragon only deploy a mine if primary attack is pressed while secondary attack is held rather than just secondary attack deploying the mine.
+-Increased USP LAM damage
+
+02/24/13
+-Made it possible for bots to reload
+-Possibly fixed the Lua errors with the effects
+
+03/02/13
+-Buffed the AwK47 and Dragon accuracy-wise
+-Added the Engineering Tool.
+-Changed 'The Crusher' to 'DIY357'
+
+03/04/13
+-Enabled canshootwhensprinting thingy for the DYI357.
+-Changed DYI357 spread modifiers.
+-Updated Engineering Tool
+	-Now uses Pipboy model, courtesy of BFG
+	-Works in SP
+03/07/13
+-Updated Sci-fi smoketrail effect for the DMR so it comes out of the gun muzzle better.
+-Updated Engineering Tool so it now explodes Dragon mines in proximity and anything else with a self.RemoteDetonate variable. Also added sounds and screenshaking when sending out a pulse.
+-Updated slots for almost all weapons.
+-Updated DMR's description.
+-First revision to be added onto Biagio's Buildnanza.
+
+03/09/13
+-Added ammo counter to the DYI357
+-Added changing mouse sensitivity for the DMR.
+-Added the 420-Blazer-F.G.T
+
+03/10/13
+-Made the 420-Blazer-F.G.T's jetpack move the player depending on what WASD keys are pressed.
+-Changed the USP LAM's hold type to "pistol"
+
+03/11/13
+-Made the DMR and AR34's zoom framebased using FrameTime() rather than just incrementing the zoom level by a number. After people noticed that you zoom slower the lower FPS you have.
+-AK47's sprint multiplier is now 2 rather than 1.2 after complaints it was OP on Biagio's BUildnanaza.
+
+03/18/13
+-Added S12 CAWS
+-Might've done some other stuff I forgot.
+-Added ValuePunch function
+
+03/30/13
+-Made reload system for S12 CAWS.
+
+03/31/13
+-Removed all DoReloadEvent()s due to the sounds.
+-Added some sounds for reloading and pumping.
+-Added pump after shotgun reload finished, completely or prematurely.
+-Added secondary fire function for S12 CAWS
+
+04/1/13
+-Removed the timer in the secondary fire of the CAWS that was causing occassional double shots.
+
+06/21/13
+-Resumed work on Sci-fi.
+-Removed WorldModel totally from Engineering tool since Garry broke ShowWorldModel
+-Fixed AK Bayonet on both World and View models
+-Changed some weapons to use C model and the C model hands:
+	-S12 CAW
+	-MaxofS2D is a faggot so can't do USP LAM (Bones changed completely) or Engineering Tool (Bone pos/ang changed).
+	-DYI357
+-Added and essentially finished the Murumasa.
+-Sent update to Biagio
+-After sending the update, found out it generated errors on the server since it was trying to send dmginfo stuff through client too, and fixed.
+
+06/23/13
+-Buffed S12 CAWS damage from 5 to 14
+
+07/4/13
+-July 4th update
+-I declare independence from the tyranny of Millinon.
+	-His game instantly closes if he spawns a Sci-fi weapon.
+		-He sucks ten dicks
+			-He deserves this
+				-//STEAM_0:1:32373544
+
+07/09/13
+-Added a cool trigomometry spamming HUD with ammo indicator to DMR when scoped in.
+
+07/10/13
+-Buffed Murumasa
+	-Attack range is now increased (up to 199) depending on player health.
+	-Attack width is increased by 3 times.
+	-Can attack full auto now.
+
+07/11/13 (7/11 update)
+-Updated Dragon View and World models. (BFG's work)
+-Updated S12 CAWS viewmodel, added W model. (BFG's work)
+-Updated AR34 World Model. (BFG's work)
+-Tried CModel for Dragon and failed terribly so reverted.
+-Converted AK47 to CModel. Bayonet dissapeared but it doesn't matter since it can't even stab atm.
+-Tried the DMR too, epic failure.
+-And here I thought it might work for AR34...
+-Added the DMR scopehud for the AR34 too, nix the Yaw indicator.
+
+07/12/13  (AR34 buff day)
+-Buffed AR34 burstfire rate from 0.7 to 0.4
+-Buffed AR34 SpreadMaximum to 0.015
+-Buffed AR34 walkmod to 1.3 (Was 2.3)
+-Buffed AR34 DrawAnimSpeed to 1.6 (Was 0.9)
+-Buffed AR34 damage from 30 to 35.
+-Buffed AR34 DefaultClip from 216 to 360.
+-Made new reload function for DYI357 to allow for the possibility to speed reload times.
+-Fixed the kick-Millinon part in init causing errors if weapon was spawned externally.
+
+07/13/13
+-Finished the new reload function for DYI357.
+-Buffed DYI357 reload time by 2.
+-Nerfed AR34 damage back to 30.
+-Then nerfed it to 25.
+-Buffed then nerfed back the AR34 reload time.
+-DMR and AR34's spinny trig line things are now aiming indicators-- they turn from Cyan to Red if you're aiming at a NPC or Player.
+-Packaged.
+-Made sprintpos stuff done by FrameTime() (was long due)
+-Buffed Dragon default clip size from 200 to 300
+-Buffed Dragon spread maximum to 0.02
+-Buffed Dragon walkmod from 1.8 to 1.2
+-Buffed Dragon jumpmod from 1.6 to 1.2
+-Buffed Dragon spreadminimum from 0.02 to 0.01
+-Buffed DIY357 damage from 95 to 98
+-Buffed DIY357 defaultclip from 8 to 120
+-Packaged again.
+-Buffed DiY357 drawspeed from 1.5 to 2
+
+07/15/13
+-Fixed Murumasa by checking for IsValid() for changing speeds.
+
+07/17/13
+-Made new trig recoil system for Sci-fi to replace ViewPunch. Fully clientside, CalcView.
+
+07/18/13
+-Buffed Stuntpistol RPM to 600 since I am an autoclicking faggot.
+-Buffed Stunt pistol damage to 50.
+

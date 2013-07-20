@@ -1,0 +1,35 @@
+01/26/13
+-Clean the bases and overall code
+-Add melee for AK47
+-Add zoom + burst for AR34
+//-Add weapon spread and recoil modification on move, shoot, jump, and crouch.
+
+01/29/13
+-Re-do all of the fun stuff in CalcView since Garry is a twat
+
+02/10/13
+-Flamethrower + Jetpack as Blazer-420-F.G.T. (thanks to BFG for the name)
+	-Jetpack is short range but fast
+	-Flamer runs off jetpack fuel
+-Flak cannon
+-Viewpunch in CalcView
+//-Finish crosshair scaling to dynamic aimcone (Doesn't take account firing yet)
+//-Custom tracers (Bullet type for fast firing)
+//-Halo style trail tracer (FOr DMR)
+-Different viewpunch styles (All in CalcView) for different weapons
+	-TF2 style (None, only spread) (PD is TF2 style really)
+	-HL2 Style (Shaking)
+	-ViewPunch style (Like normal Viewpunching)
+//-Dragon ripoff
+-Emplacement Gun
+-Realistic sprint positions
+
+Add to test server:
+-Spawn protection
+-Seat Damage
+-GDC?
+-Precision Alignment
+
+
+
+03/09/13

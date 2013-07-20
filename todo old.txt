@@ -1,0 +1,64 @@
+Add the red fade in and out for the AR34 once ammo is near empty ~7 rounds?
+
+Fix stuff.
+
+5-7 laser pistol instead?
+
+Clean stuff
+Fix laser-Pistol derived weapons not working.
+
+//Damage scaling
+
+
+/Shotguns
+	//-Make it pump afterwards now
+	//-Fix the sound
+Grenade
+//AT4
+Spartan laser
+
+//Listen to input about the new 5-7.
+
+//Fix sounds
+	-170 pitch was breaking it.
+
+Scope for the CI2000
+
+//Weight tool
+
+Make crouch lessen recoil
+
+Make LMG
+
+//Add prop protection
+
+Grenade launcher
+
+scope sensitivity changed when zoomed.
+
+Add new secondaries
+
+Fix AK47 melee, grab from Halo weps
+
+Add a scope thingy
+
+Make better mug system for Scifi SMG
+
+
+
+OPTIMIZE CODE
+	-IF CLIENT THEN
+
+Custom muzzle flash
+
+optimize the hell out of this
+
+add fancy effex
+
+remove css flashes
+
+
+
+
+
+Remove all globals, ie. ScopeLevel
